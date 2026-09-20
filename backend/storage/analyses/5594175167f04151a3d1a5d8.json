@@ -1,0 +1,155 @@
+{
+  "created_at": "2026-06-17T05:33:15.916092+00:00",
+  "status": "completed",
+  "resume_filename": "resume.pdf",
+  "resume_file_type": "pdf",
+  "resume_text": "n° d'identification national\nmodèle 160 année : 2019 page : 1/1\nCertificat de salaire, de retenue d'impôt et de crédits d'impôt\n1)\nbonifiés 2019\nsalarié(e):\nnom prénom\nrue\nligne localité\n1 période du au classe d'impôt et taux (suivant fiche)\n2 A) rémunérations brutes 2) H) désignation de l'employeur\n3\nnom:\n4\nadresse:\n5\n6 sous-total:\nn° dossier:\n7 B) déductions\nI) fiduciaire ou personne de contact chargée de la\n8 1. cotisations sociales 4)\ncomptabilité des salaires\ncotisations sociales\nnon déductibles nom:\n10 cotisations sociales déductibles (ligne 8 - ligne 9):\nadresse:\n11 2. déductions 5) FD\n12 FO\ntéléphone:\n13\nJ) indemnisation par la Caisse Nationale de Santé 6)\n14 CE\n15 AC\noui non\n16 AMD\ndu au\n17 C) exemptions\ndu au\n1.\n18\ndu au\n19\nK)\nnombre de jours imposables\nau Luxembourg\nnombre de jours non imposables\n21 2. autres exemptions (à spécifier) au Luxembourg\n22\nmontant net exonéré\n24\ncertifié exact,\n25 D) rémunérations servant de base à la retenue\n, le\n27 F) crédit d'impôt pour salariés bonifié CIS\nsignature de l'employeur\n28 G) crédit d'impôt monoparental bonifié CIM\n1) le certificat ne sert pas à la transmission des extraits de compte des salariés par les employeurs à l'administration des contributions directes,\ncette transmission ne peut se faire que par voie électronique\n2) Indiquer toutes rémunérations en espèces ou en nature, y compris les indemnités pécuniaires de maladie avancées pour compte de la Caisse\nNationale de Santé, les gratifications et autres rémunérations non périodiques, l'avantage fiscal de l'économie et de la bonification d'intérêts,\nl'avantage fiscal de la mise à la disposition d'une voiture de service, etc.\n3) Indiquer séparément en signalant par des lettres: S = salaire, C = cotisation de sécurité sociale complémentaire, R = rappels d'années antérieures,\nP = pension.\n4) Part de l'assuré, les cotisations pour l'assurance dépendance non comprises.\n5) Déduction inscrite sur la fiche de retenue pour frais de déplacement (FD), frais d'obtention (FO), dépenses spéciales (DS), charges extraordinaires (CE),\nabattement conjoint (AC) ou abattement pour mobilité durable (AMD).\n6) Cocher, si oui ou non, il y a eu, au courant de l'année, une ou plusieurs interruptions de travail pour maladie. Cette rubrique ne s'applique pas aux\nemployeurs qui ont liquidé eux-mêmes les indemnités pécuniaires de maladie, pour autant que ces indemnités sont comprises sub. A).\nmodèle de certificat de salaire FR-2019-181312\n)3\nerutaN\nnuméro\ncode postal\n9\nDS\nsalaires payés pour les heures\nsupplémentaires\nsuppléments de salaires\nsuppléments de salaires pour travail de nuit,\n20\nde dimanche et de jours fériés\n23\n26 E) impôt retenu",
+  "job_description_text": "Required: Python, React. Preferred: AWS, Docker.",
+  "resume_data": {
+    "name": "d'impôt et de",
+    "email": null,
+    "phone": "2019-181312",
+    "linkedin": null,
+    "skills": [
+      "C",
+      "R"
+    ],
+    "skills_categorized": {
+      "programming_languages": [
+        "C",
+        "R"
+      ]
+    },
+    "education": [],
+    "experience": [
+      {
+        "title": null,
+        "company": "modèle de certificat de",
+        "duration": "2019 - 1813",
+        "description": "12\n)3\nerutaN\nnuméro\ncode postal\n9\nDS\nsalaires payés pour les heures\nsupplémentaires\nsuppléments de salaires\nsuppléments de salaires pour travail de nuit,\n20\nde dimanche et de jours fériés\n23\n26 E) impôt retenu"
+      }
+    ],
+    "certifications": [],
+    "total_experience_years": 2
+  },
+  "job_data": {
+    "title": "Required: Python, React. Preferred: AWS, Docker.",
+    "all_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "React"
+    ],
+    "required_skills": [
+      "Python",
+      "React"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Docker"
+    ],
+    "min_experience_years": null,
+    "education_requirements": []
+  },
+  "overall_score": 32.0,
+  "grade": {
+    "grade": "F",
+    "label": "Poor Match",
+    "color": "#ef4444"
+  },
+  "category_scores": {
+    "skills_match": 0.0,
+    "experience_match": 80.0,
+    "education_match": 80.0,
+    "semantic_similarity": 0
+  },
+  "skills_detail": {
+    "matched_skills": [],
+    "missing_required": [
+      "Python",
+      "React"
+    ],
+    "missing_preferred": [
+      "AWS",
+      "Docker"
+    ],
+    "extra_skills": [
+      "C",
+      "R"
+    ]
+  },
+  "strengths": [
+    "Candidate demonstrates a diverse skill profile."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "Skill Deficit",
+      "text": "Candidate lacks the following critical required skills: Python, React. Verification of equivalent technical knowledge is highly recommended."
+    },
+    {
+      "priority": "low",
+      "category": "Preferred Gaps",
+      "text": "Candidate lacks the following preferred/nice-to-have skill qualifiers: AWS, Docker."
+    },
+    {
+      "priority": "medium",
+      "category": "Relevance Alert",
+      "text": "Low semantic keyword alignment with the job description. The candidate's background might be focused on a different domain or tech stack."
+    },
+    {
+      "priority": "low",
+      "category": "Resume Detail",
+      "text": "Work descriptions do not highlight quantifiable metrics or numeric outcomes. Recruiter should ask for concrete metrics during screening."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "Missing Core: Python",
+      "text": "The position requires experience with 'Python', which is not mentioned on your resume. Could you describe your level of exposure to this or a related technology?"
+    },
+    {
+      "category": "Missing Core: React",
+      "text": "How have you solved problems using 'React'? If you haven't used it directly, what similar tools/systems have you worked with?"
+    },
+    {
+      "category": "Preferred Skill: AWS",
+      "text": "We prefer candidates to have exposure to 'AWS'. Have you worked with this tool or concept, and how would you approach utilizing it in this role?"
+    },
+    {
+      "category": "Technical Impact",
+      "text": "In your role as 'your recent role' at 'modèle de certificat de', what is an example of a project where you drove measurable business or technical results?"
+    }
+  ],
+  "hiring_assessment": {
+    "verdict": "Hold / Mismatch",
+    "verdict_color": "#ef4444",
+    "leveling": "Junior Level (0-2 years)",
+    "summary": "Candidate is a Junior Level professional showing a 32% structural match to the job requirements. They meet the years of experience requirement, but lack several critical skill keywords. Recommended action for the hiring team: Review for Alternative Roles.",
+    "checklist": [
+      {
+        "criteria": "Skills Criteria Check",
+        "status": "FAIL",
+        "details": "Matched 0 of 2 required core skills.",
+        "is_met": false
+      },
+      {
+        "criteria": "Experience Criteria Check",
+        "status": "PASS",
+        "details": "Candidate has 2.0 years (no minimum specified).",
+        "is_met": true
+      },
+      {
+        "criteria": "Education Criteria Check",
+        "status": "PASS",
+        "details": "Credentials align with requirements (Bachelors).",
+        "is_met": true
+      }
+    ],
+    "screening_actions": [
+      "Technical Screen Focus: Assess depth in missing core skills (Python, React).",
+      "Portfolio Review: Check candidate github or previous work portfolio to double-check core competence."
+    ]
+  },
+  "_id": "5594175167f04151a3d1a5d8"
+}

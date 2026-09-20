@@ -1,0 +1,169 @@
+{
+  "created_at": "2026-06-15T05:12:31.322565+00:00",
+  "status": "completed",
+  "resume_filename": "sample_resume.docx",
+  "resume_file_type": "docx",
+  "resume_text": "John Doe\njohn.doe@email.com | +1-555-0123\n\nSKILLS\nPython, JavaScript, React, Node.js, PostgreSQL, Docker, AWS\n\nEXPERIENCE\nSoftware Engineer at Google\nJan 2020 - Present\n- Built scalable microservices using Python and FastAPI\n- Deployed applications on AWS ECS\n\nEDUCATION\nBachelor's in Computer Science\nStanford University, 2019\n\nCERTIFICATIONS\nAWS Certified Solutions Architect",
+  "job_description_text": "We are looking for a Software Engineer with:\r\n- Experience in Python, Node.js, and React.\r\n- Hands-on experience with Docker, PostgreSQL, and cloud platforms like AWS.\r\n- Background in CS or a related field.\r\n- Certifications like AWS Solutions Architect are a plus.",
+  "resume_data": {
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "phone": null,
+    "linkedin": null,
+    "skills": [
+      "AWS",
+      "AWS Certified",
+      "Docker",
+      "ECS",
+      "FastAPI",
+      "JavaScript",
+      "Microservices",
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "skills_categorized": {
+      "cloud_platforms": [
+        "AWS"
+      ],
+      "certifications_keywords": [
+        "AWS Certified"
+      ],
+      "devops_tools": [
+        "Docker"
+      ],
+      "cloud_services": [
+        "ECS"
+      ],
+      "web_frameworks": [
+        "FastAPI",
+        "React"
+      ],
+      "programming_languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "methodologies": [
+        "Microservices"
+      ],
+      "databases": [
+        "PostgreSQL"
+      ]
+    },
+    "education": [
+      {
+        "degree": "Bachelor's in Computer Science\nStanford University, 2019\n\nCERTIFICATIONS\nAWS Certified Solutions Architect",
+        "level": "Bachelors",
+        "institution": "Bachelor",
+        "year": "2019"
+      },
+      {
+        "degree": "Bachelor's",
+        "level": "Bachelors",
+        "institution": "Bachelor",
+        "year": "2019"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer at Google",
+        "company": "john.doe@email.com",
+        "duration": "Jan 2020 - Present",
+        "description": "- Built scalable microservices using Python and FastAPI\n- Deployed applications on AWS ECS\n\nEDUCATION\nBachelor's in Computer Science\nStanford University, 2019\n\nCERTIFICATIONS\nAWS Certified Solutions Architect"
+      }
+    ],
+    "certifications": [
+      "AWS Certified"
+    ],
+    "total_experience_years": 2
+  },
+  "job_data": {
+    "title": "We are looking for a Software Engineer with:",
+    "all_skills": [
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "preferred_skills": [],
+    "min_experience_years": null,
+    "education_requirements": [
+      "Masters"
+    ]
+  },
+  "overall_score": 88.3,
+  "grade": {
+    "grade": "A",
+    "label": "Excellent Match",
+    "color": "#10b981"
+  },
+  "category_scores": {
+    "skills_match": 100.0,
+    "experience_match": 80.0,
+    "education_match": 70.0,
+    "semantic_similarity": 88.8
+  },
+  "skills_detail": {
+    "matched_skills": [
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "missing_required": [],
+    "missing_preferred": [],
+    "extra_skills": [
+      "AWS Certified",
+      "ECS",
+      "FastAPI",
+      "JavaScript",
+      "Microservices"
+    ]
+  },
+  "strengths": [
+    "Strong skill match — you have 5 of 5 required skills.",
+    "Additional valuable skills: AWS Certified, ECS, FastAPI, JavaScript, Microservices.",
+    "Relevant certifications: AWS Certified.",
+    "Resume language aligns well with the job description."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "content",
+      "text": "Add quantifiable achievements to your experience section. Use numbers, percentages, and metrics (e.g., 'Reduced load time by 40%', 'Managed team of 8 engineers')."
+    },
+    {
+      "priority": "medium",
+      "category": "content",
+      "text": "Use strong action verbs to start your bullet points. Words like 'Architected', 'Optimized', 'Spearheaded', 'Implemented', and 'Delivered' make a stronger impression."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "keywords",
+      "text": "Consider incorporating these JD keywords: field, hands, cloud, platforms, plus. ATS systems often rank resumes by keyword match frequency."
+    },
+    {
+      "category": "formatting",
+      "text": "Avoid using tables in your resume — many ATS systems cannot parse table content correctly."
+    },
+    {
+      "category": "content",
+      "text": "Your resume appears quite short. Consider adding more detail to your experience and skills sections."
+    },
+    {
+      "category": "format",
+      "text": "Use a clean, single-column layout with standard fonts (Arial, Calibri) for maximum ATS compatibility."
+    }
+  ],
+  "_id": "9991dd1e70fa4e8397348ff9"
+}

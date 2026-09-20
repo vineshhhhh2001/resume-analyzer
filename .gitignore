@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Virtual Environment
+backend/venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend Build
+frontend/dist/
+frontend/build/
+frontend/*.tsbuildinfo
+
+# Testing & Coverage
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+*.coverage
+coverage.xml
+test-results/
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Uploads & Storage
+backend/storage/uploads/
+backend/storage/*.tmp
+
+# Database
+*.db
+*.sqlite3
+
+# Secrets & Keys
+*.pem
+*.key
+*.cert
+
+# OS
+.DS_Store
+desktop.ini

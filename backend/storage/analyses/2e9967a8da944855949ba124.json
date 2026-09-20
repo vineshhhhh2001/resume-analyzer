@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-06-17T05:16:14.010670+00:00",
+  "status": "completed",
+  "resume_filename": "mock_sample_resume.pdf",
+  "resume_file_type": "pdf",
+  "resume_text": "John Doe john.doe@email.com Experience: Software Engineer at Google. Built scalable microservices using Python and FastAPI. Deployed applications on AWS ECS. Education: Bachelor’s in Computer Science, Stanford University, 2019. Skills: AWS, AWS Certified, Docker, ECS, FastAPI, JavaScript, Microservices, PostgreSQL, Python, React.",
+  "job_description_text": "Looking for a Software Engineer with Python and React experience",
+  "resume_data": {
+    "name": "John",
+    "email": "john.doe@email.com",
+    "phone": null,
+    "linkedin": null,
+    "skills": [
+      "AWS",
+      "AWS Certified",
+      "Docker",
+      "ECS",
+      "FastAPI",
+      "JavaScript",
+      "Microservices",
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "skills_categorized": {
+      "cloud_platforms": [
+        "AWS"
+      ],
+      "certifications_keywords": [
+        "AWS Certified"
+      ],
+      "devops_tools": [
+        "Docker"
+      ],
+      "cloud_services": [
+        "ECS"
+      ],
+      "web_frameworks": [
+        "FastAPI",
+        "React"
+      ],
+      "programming_languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "methodologies": [
+        "Microservices"
+      ],
+      "databases": [
+        "PostgreSQL"
+      ]
+    },
+    "education": [],
+    "experience": [],
+    "certifications": [
+      "AWS Certified"
+    ],
+    "total_experience_years": 0.0
+  },
+  "job_data": {
+    "title": "Looking for a Software Engineer with Python and React experience",
+    "all_skills": [
+      "Python",
+      "React"
+    ],
+    "required_skills": [
+      "Python",
+      "React"
+    ],
+    "preferred_skills": [],
+    "min_experience_years": null,
+    "education_requirements": []
+  },
+  "overall_score": 83.3,
+  "grade": {
+    "grade": "B",
+    "label": "Good Match",
+    "color": "#6366f1"
+  },
+  "category_scores": {
+    "skills_match": 100.0,
+    "experience_match": 80.0,
+    "education_match": 80.0,
+    "semantic_similarity": 56.6
+  },
+  "skills_detail": {
+    "matched_skills": [
+      "Python",
+      "React"
+    ],
+    "missing_required": [],
+    "missing_preferred": [],
+    "extra_skills": [
+      "AWS",
+      "AWS Certified",
+      "Docker",
+      "ECS",
+      "FastAPI",
+      "JavaScript",
+      "Microservices",
+      "PostgreSQL"
+    ]
+  },
+  "strengths": [
+    "Strong skill match — candidate has 2 of 2 required skills.",
+    "Additional valuable skills: AWS, AWS Certified, Docker, ECS, FastAPI.",
+    "Relevant certifications: AWS Certified."
+  ],
+  "recommendations": [
+    {
+      "priority": "low",
+      "category": "Resume Detail",
+      "text": "Work descriptions do not highlight quantifiable metrics or numeric outcomes. Recruiter should ask for concrete metrics during screening."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "Technical Overview",
+      "text": "Could you walk us through the system architecture of a major project you contributed to, explaining the decisions and trade-offs you made?"
+    }
+  ],
+  "_id": "2e9967a8da944855949ba124"
+}

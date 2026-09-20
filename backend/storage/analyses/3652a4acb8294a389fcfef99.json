@@ -1,0 +1,356 @@
+{
+  "created_at": "2026-06-18T05:25:30.889539+00:00",
+  "status": "completed",
+  "resume_filename": "vinesh resume.pdf",
+  "resume_file_type": "pdf",
+  "resume_text": "VINESH KRISHNA P K\nCoimbatore, India | +91 79049 33349 | vineshprabhakaran@gmail.com\nOBJECTIVE\nSecond-year M.Tech Integrated (Software Engineering) student at VIT Vellore seeking a 2‑month summer\ninternship (May–July 2026). Interested in Software Development, Software Architecture, Requirement\nAnalysis, and AI/ML domains.\nEDUCATION\nM.Tech Integrated (Software Engineering) – 5 Year Program\nVIT University, Vellore\nCurrent Year: 2nd Year\nTECHNICAL SKILLS\nProgramming: C++, Java, Python\nDatabase: SQL, MongoDB\nTools: Figma, MediaPipe, AI Modules\nRELEVANT COURSEWORK\nData Structures, Database Management Systems, Computer Networks, Operating Systems, Software\nEngineering, Requirement Engineering, Software Architecture, Object Oriented Analysis and Design\n,Software project management\nPROJECTS\nAI-Based Inventory & Billing Management System\nDeveloped an AI-assisted inventory and billing system to automate stock tracking and billing workflows.\nDriver Drowsiness Detection System\nBuilt a computer vision solution using Python and MediaPipe to detect driver fatigue.\nLEADERSHIP & ACTIVITIES\nIEEE Computer Society Member – Organized technical events, participated in hackathons and\ncollaborated with senior students on technical projects.\nAREAS OF INTEREST\nSoftware Architecture, Requirement Engineering, Artificial Intelligence, Machine Learning, Software\nDevelopment",
+  "job_description_text": "Job Description – Full Stack Developer (3–6 Years Experience)\r\n\r\nPosition: Full Stack Developer\r\nExperience: 3–6 Years\r\nLocation: Bengaluru / Chennai / Hyderabad (Hybrid)\r\nEmployment Type: Full-Time\r\n\r\nJob Summary\r\n\r\nWe are seeking a skilled Full Stack Developer with 3–6 years of experience in designing, developing, and deploying scalable web applications. The ideal candidate should have strong expertise in both frontend and backend development and hands-on experience with at least one public cloud platform such as Amazon Web Services (AWS).\r\n\r\nKey Responsibilities\r\nDesign, develop, test, and maintain full-stack web applications.\r\nBuild responsive and user-friendly frontend interfaces.\r\nDevelop robust backend APIs and microservices.\r\nIntegrate applications with databases, third-party services, and cloud infrastructure.\r\nDeploy and manage applications on AWS cloud environments.\r\nCollaborate with product managers, designers, and QA teams.\r\nOptimize application performance, scalability, and security.\r\nParticipate in code reviews and follow software development best practices.\r\nTroubleshoot and resolve production issues.\r\nRequired Skills\r\nFrontend\r\nJavaScript, TypeScript\r\nReact.js or Angular\r\nHTML5, CSS3\r\nResponsive UI Development\r\nBackend\r\nNode.js / Express.js\r\nRESTful APIs\r\nMicroservices Architecture\r\nDatabase\r\nPostgreSQL, MySQL, or MongoDB\r\nDatabase Design and Query Optimization\r\nCloud & DevOps\r\nAWS (EC2, S3, RDS, Lambda, IAM)\r\nDocker\r\nCI/CD Pipelines\r\nGit/GitHub\r\nQualifications\r\nBachelor's degree in Computer Science, Information Technology, or related field.\r\n3–6 years of professional software development experience.\r\nExperience developing and deploying enterprise-grade applications.\r\nStrong understanding of software design principles and system architecture.\r\nExcellent problem-solving and communication skills.\r\nPreferred Skills\r\nKubernetes\r\nServerless Architecture\r\nTerraform or CloudFormation\r\nAgile/Scrum methodologies\r\nUnit Testing and Automation Frameworks\r\nNice to Have\r\nExperience with event-driven architectures.\r\nKnowledge of application monitoring tools.\r\nExposure to AI/ML service integrations.\r\nExperience working in cloud-native environments.",
+  "resume_data": {
+    "name": "VINESH KRISHNA P K",
+    "email": "vineshprabhakaran@gmail.com",
+    "phone": "+91 79049 3334",
+    "linkedin": null,
+    "skills": [
+      "C",
+      "Computer Vision",
+      "Figma",
+      "Java",
+      "Leadership",
+      "Machine Learning",
+      "MongoDB",
+      "Project Management",
+      "Python",
+      "SQL"
+    ],
+    "skills_categorized": {
+      "programming_languages": [
+        "C",
+        "Java",
+        "Python",
+        "SQL"
+      ],
+      "data_science_ml": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "design_tools": [
+        "Figma"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Project Management"
+      ],
+      "databases": [
+        "MongoDB"
+      ]
+    },
+    "education": [
+      {
+        "degree": "M.Tech Integrated",
+        "level": "Masters",
+        "institution": "Coimbatore",
+        "year": "2026"
+      },
+      {
+        "degree": "M.Tech",
+        "level": "Masters",
+        "institution": "Coimbatore",
+        "year": "2026"
+      },
+      {
+        "degree": "ma,",
+        "level": "Masters",
+        "institution": "SQL",
+        "year": null
+      },
+      {
+        "degree": "ms,",
+        "level": "Masters",
+        "institution": "SQL",
+        "year": null
+      },
+      {
+        "degree": "AS OF INTEREST\nSoftware Architecture, Requirement Engineering, Artificial Intelligence, Machine Learning, Software\nDevelopment",
+        "level": "Associates",
+        "institution": "Software Architecture",
+        "year": null
+      }
+    ],
+    "experience": [],
+    "projects": [
+      {
+        "title": "AI-Based Inventory & Billing Management System",
+        "description": "Developed an AI-assisted inventory and billing system to automate stock tracking and billing workflows.",
+        "technologies": []
+      },
+      {
+        "title": "Driver Drowsiness Detection System",
+        "description": "Built a computer vision solution using Python and MediaPipe to detect driver fatigue.",
+        "technologies": [
+          "Computer Vision",
+          "Python"
+        ]
+      }
+    ],
+    "certifications": [],
+    "total_experience_years": 5.0,
+    "is_student": true
+  },
+  "job_data": {
+    "title": "Job Description – Full Stack Developer (3–6 Years Experience)",
+    "all_skills": [
+      "AWS",
+      "Agile",
+      "Amazon Web Services",
+      "Angular",
+      "CI/CD",
+      "CloudFormation",
+      "Communication",
+      "DevOps",
+      "Docker",
+      "EC2",
+      "Event-Driven Architecture",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "IAM",
+      "JavaScript",
+      "Kubernetes",
+      "Lambda",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "RDS",
+      "RESTful API",
+      "React",
+      "React.js",
+      "S3",
+      "Scrum",
+      "Serverless",
+      "Terraform",
+      "TypeScript",
+      "Unit Testing"
+    ],
+    "required_skills": [
+      "AWS",
+      "Agile",
+      "Amazon Web Services",
+      "Angular",
+      "CI/CD",
+      "CloudFormation",
+      "Communication",
+      "DevOps",
+      "Docker",
+      "EC2",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "IAM",
+      "JavaScript",
+      "Kubernetes",
+      "Lambda",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "RDS",
+      "RESTful API",
+      "React",
+      "React.js",
+      "S3",
+      "Scrum",
+      "Serverless",
+      "Terraform",
+      "TypeScript",
+      "Unit Testing"
+    ],
+    "preferred_skills": [
+      "Event-Driven Architecture"
+    ],
+    "min_experience_years": 6.0,
+    "education_requirements": [
+      "Masters",
+      "Bachelors"
+    ]
+  },
+  "overall_score": 40.1,
+  "grade": {
+    "grade": "D",
+    "label": "Weak Match",
+    "color": "#f97316"
+  },
+  "category_scores": {
+    "skills_match": 2.9,
+    "experience_match": 83.3,
+    "education_match": 100.0,
+    "semantic_similarity": 41.7
+  },
+  "skills_detail": {
+    "matched_skills": [
+      "MongoDB"
+    ],
+    "missing_required": [
+      "AWS",
+      "Agile",
+      "Angular",
+      "CI/CD",
+      "CloudFormation",
+      "Communication",
+      "DevOps",
+      "Docker",
+      "EC2",
+      "Express",
+      "Git",
+      "IAM",
+      "JavaScript",
+      "Kubernetes",
+      "Lambda",
+      "Microservices",
+      "MySQL",
+      "PostgreSQL",
+      "RDS",
+      "RESTful API",
+      "React",
+      "S3",
+      "Scrum",
+      "Serverless",
+      "Terraform",
+      "TypeScript",
+      "Unit Testing"
+    ],
+    "missing_preferred": [
+      "Event-Driven Architecture"
+    ],
+    "extra_skills": [
+      "C",
+      "Computer Vision",
+      "Figma",
+      "Java",
+      "Leadership",
+      "Machine Learning",
+      "Project Management",
+      "Python",
+      "SQL"
+    ]
+  },
+  "strengths": [
+    "Education level meets or exceeds the job requirement.",
+    "Additional valuable skills: C, Computer Vision, Figma, Java, Leadership."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "Skill Deficit",
+      "text": "Candidate is missing 27 core required skills. Major gaps detected in: AWS, Agile, Angular, CI/CD."
+    },
+    {
+      "priority": "high",
+      "category": "Experience Gap",
+      "text": "Candidate's experience (5.0 years) falls short of the required 6.0 years by 1.0 years. Assess depth of projects during phone screening."
+    },
+    {
+      "priority": "low",
+      "category": "Preferred Gaps",
+      "text": "Candidate lacks the following preferred/nice-to-have skill qualifiers: Event-Driven Architecture."
+    },
+    {
+      "priority": "medium",
+      "category": "Relevance Alert",
+      "text": "Low semantic keyword alignment with the job description. The candidate's background might be focused on a different domain or tech stack."
+    },
+    {
+      "priority": "low",
+      "category": "Resume Detail",
+      "text": "Work descriptions do not highlight quantifiable metrics or numeric outcomes. Recruiter should ask for concrete metrics during screening."
+    }
+  ],
+  "negatives": [
+    {
+      "category": "Missing Required Skills",
+      "missing_item": "AWS, Agile, Angular, CI/CD, CloudFormation, Communication (+21 more)",
+      "impact": "high",
+      "suggestion": "Your resume is missing 27 required skill(s). Add each one explicitly — either in a dedicated Skills section or inline in project/experience bullets. ATS systems scan for exact keyword matches."
+    },
+    {
+      "category": "Experience Gap",
+      "missing_item": "Role requires ~6 yrs professional experience; resume shows 5.0 yrs",
+      "impact": "low",
+      "suggestion": "As a student or early-career candidate, this is expected. Compensate by emphasizing internships, academic projects, hackathons, and any freelance/volunteer work. Highlight scope and impact to show real-world readiness."
+    },
+    {
+      "category": "Missing Preferred Skills",
+      "missing_item": "Event-Driven Architecture",
+      "impact": "low",
+      "suggestion": "These are nice-to-have skills, not blockers. If you have any exposure — even from a tutorial or coursework — add them to your Skills section to improve ATS ranking."
+    },
+    {
+      "category": "Content Alignment",
+      "missing_item": "Resume language doesn't closely mirror the job description",
+      "impact": "medium",
+      "suggestion": "Tailor your resume to use terminology from this job post — reuse key verbs, nouns, and domain phrases. This improves both ATS match and recruiter readability."
+    },
+    {
+      "category": "Impact Metrics",
+      "missing_item": "No measurable achievements or numbers found",
+      "impact": "low",
+      "suggestion": "Add concrete numbers to your bullets — e.g. 'built a system serving 500+ users', 'reduced load time by 30%', or 'led a team of 3'. Numbers make achievements tangible."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "Missing Core: AWS",
+      "text": "The position requires experience with 'AWS', which is not mentioned on your resume. Could you describe your level of exposure to this or a related technology?"
+    },
+    {
+      "category": "Missing Core: Agile",
+      "text": "How have you solved problems using 'Agile'? If you haven't used it directly, what similar tools/systems have you worked with?"
+    },
+    {
+      "category": "Experience Depth",
+      "text": "This role specifies 6 years of experience, while your resume shows approximately 5.0 years. Can you elaborate on the complex projects you ran that demonstrate your readiness for this scope?"
+    },
+    {
+      "category": "Preferred Skill: Event-Driven Architecture",
+      "text": "We prefer candidates to have exposure to 'Event-Driven Architecture'. Have you worked with this tool or concept, and how would you approach utilizing it in this role?"
+    },
+    {
+      "category": "Technical Overview",
+      "text": "Could you walk us through the system architecture of a major project you contributed to, explaining the decisions and trade-offs you made?"
+    }
+  ],
+  "hiring_assessment": {
+    "verdict": "Hold / Mismatch",
+    "verdict_color": "#ef4444",
+    "leveling": "Mid-Level (3-5 years)",
+    "summary": "Candidate is a Mid-Level professional showing a 40% structural match to the job requirements. They do not meet the core required skills or experience requirements. Recommended action for the hiring team: Review for Alternative Roles.",
+    "checklist": [
+      {
+        "criteria": "Skills Criteria Check",
+        "status": "FAIL",
+        "details": "Matched 1 of 32 required core skills.",
+        "is_met": false
+      },
+      {
+        "criteria": "Experience Criteria Check",
+        "status": "FAIL",
+        "details": "Candidate has 5.0 years, role specifies min 6.0 years.",
+        "is_met": false
+      },
+      {
+        "criteria": "Education Criteria Check",
+        "status": "PASS",
+        "details": "Credentials align with requirements (Masters, Bachelors).",
+        "is_met": true
+      }
+    ],
+    "screening_actions": [
+      "Technical Screen Focus: Assess depth in missing core skills (AWS, Agile, Angular).",
+      "Experience Check: Verify if candidate's projects bridge the 1.0-year experience gap.",
+      "Portfolio Review: Check candidate github or previous work portfolio to double-check core competence."
+    ]
+  },
+  "_id": "3652a4acb8294a389fcfef99"
+}

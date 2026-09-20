@@ -1,0 +1,230 @@
+"""Tests for the Gemini-based high-precision matching pipeline."""
+
+import sys
+import os
+from unittest.mock import MagicMock, patch
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from nlp.gemini_analyzer import analyze_with_gemini
+from config import get_settings
+
+
+def test_gemini_fallback_when_no_key():
+    """Verify that the analyzer returns None (triggering fallback) when GEMINI_API_KEY is not set."""
+    settings = get_settings()
+    original_key = settings.gemini_api_key
+    settings.gemini_api_key = None
+    try:
+        result = analyze_with_gemini("Resume text", "Job description")
+        assert result is None
+    finally:
+        settings.gemini_api_key = original_key
+
+
+@patch("nlp.gemini_analyzer.genai")
+def test_gemini_success_mock(mock_genai):
+    """Verify that the analyzer correctly initializes Gemini, executes request, and returns structured result."""
+    settings = get_settings()
+    original_key = settings.gemini_api_key
+    settings.gemini_api_key = "mock_key"
+
+    try:
+        # Mock GenerativeModel and its response
+        mock_model = MagicMock()
+        mock_genai.GenerativeModel.return_value = mock_model
+        
+        # Structure the mocked response text to look like GeminiAnalysisResult JSON
+        mock_response = MagicMock()
+        mock_response.text = """{
+            "resume_data": {
+                "name": "John Doe",
+                "email": "john.doe@example.com",
+                "phone": "+123456789",
+                "linkedin": "linkedin.com/in/johndoe",
+                "skills": ["Python", "Docker", "FastAPI"],
+                "skills_categorized": {
+                    "programming_languages": ["Python"],
+                    "devops_tools": ["Docker"],
+                    "web_frameworks": ["FastAPI"]
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor of Science in Computer Science",
+                        "level": "Bachelors",
+                        "institution": "State University",
+                        "year": "2022"
+                    }
+                ],
+                "experience": [
+                    {
+                        "title": "Software Engineer",
+                        "company": "Tech Corp",
+                        "duration": "Jun 2022 - Present",
+                        "description": "Building APIs with FastAPI",
+                        "months": 24
+                    }
+                ],
+                "projects": [],
+                "certifications": [],
+                "total_experience_years": 2.0,
+                "is_student": false
+            },
+            "job_data": {
+                "title": "FastAPI Developer",
+                "all_skills": ["Python", "FastAPI", "Docker", "AWS"],
+                "required_skills": ["Python", "FastAPI"],
+                "preferred_skills": ["Docker", "AWS"],
+                "min_experience_years": 2.0,
+                "education_requirements": ["Bachelors"]
+            },
+            "overall_score": 85.5,
+            "grade": {
+                "grade": "A",
+                "label": "Excellent Match",
+                "color": "#10b981"
+            },
+            "category_scores": {
+                "skills_match": 90.0,
+                "experience_match": 80.0,
+                "education_match": 100.0,
+                "semantic_similarity": 75.0
+            },
+            "skills_detail": {
+                "matched_skills": ["Python", "FastAPI", "Docker"],
+                "missing_required": [],
+                "missing_preferred": ["AWS"],
+                "extra_skills": []
+            },
+            "strengths": ["Strong FastAPI experience", "Has required Bachelors degree"],
+            "recommendations": [],
+            "negatives": [
+                {
+                    "category": "Missing Preferred Skills",
+                    "missing_item": "AWS",
+                    "impact": "low",
+                    "suggestion": "Add AWS experience if you have it"
+                }
+            ],
+            "ats_suggestions": [
+                {
+                    "category": "AWS Cloud",
+                    "text": "What AWS services have you deployed FastAPI apps to?"
+                }
+            ],
+            "hiring_assessment": {
+                "verdict": "Auto-Shortlist (Strong Match)",
+                "verdict_color": "#10b981",
+                "leveling": "Junior Level (0-2 years)",
+                "summary": "Excellent FastAPI skills.",
+                "checklist": [],
+                "screening_actions": []
+            }
+        }"""
+        mock_model.generate_content.return_value = mock_response
+
+        # Execute
+        result = analyze_with_gemini("Resume text", "Job description")
+        
+        # Asserts
+        assert result is not None
+        assert result["resume_data"]["name"] == "John Doe"
+        assert result["overall_score"] == 86.0
+        assert result["grade"]["grade"] == "A"
+        assert len(result["skills_detail"]["matched_skills"]) == 3
+        
+        # Verify call arguments
+        mock_genai.configure.assert_called_once_with(api_key="mock_key")
+        assert mock_genai.GenerativeModel.call_args[0][0] == "gemini-2.5-flash"
+        assert "system_instruction" in mock_genai.GenerativeModel.call_args[1]
+        
+    finally:
+        settings.gemini_api_key = original_key
+
+
+@patch("nlp.gemini_analyzer.genai")
+def test_gemini_student_post_processing(mock_genai):
+    """Verify that a student's education match score is post-processed to 0.0 when a degree is in progress."""
+    settings = get_settings()
+    original_key = settings.gemini_api_key
+    settings.gemini_api_key = "mock_key"
+
+    try:
+        mock_model = MagicMock()
+        mock_genai.GenerativeModel.return_value = mock_model
+        
+        mock_response = MagicMock()
+        mock_response.text = """{
+            "resume_data": {
+                "name": "Jane Student",
+                "email": "jane@example.com",
+                "phone": "+123456789",
+                "linkedin": "",
+                "skills": ["Python"],
+                "skills_categorized": {"programming_languages": ["Python"]},
+                "education": [
+                    {
+                        "degree": "Bachelor of Science in Computer Science",
+                        "level": "Bachelors",
+                        "institution": "State College",
+                        "year": "2027"
+                    }
+                ],
+                "experience": [],
+                "projects": [],
+                "certifications": [],
+                "total_experience_years": 0.0,
+                "is_student": true
+            },
+            "job_data": {
+                "title": "Software Engineer",
+                "all_skills": ["Python"],
+                "required_skills": ["Python"],
+                "preferred_skills": [],
+                "min_experience_years": 1.0,
+                "education_requirements": ["Bachelors"]
+            },
+            "overall_score": 85.0,
+            "grade": {
+                "grade": "B",
+                "label": "Good Match",
+                "color": "#6366f1"
+            },
+            "category_scores": {
+                "skills_match": 100.0,
+                "experience_match": 80.0,
+                "education_match": 100.0,
+                "semantic_similarity": 80.0
+            },
+            "skills_detail": {
+                "matched_skills": ["Python"],
+                "missing_required": [],
+                "missing_preferred": [],
+                "extra_skills": []
+            },
+            "strengths": [],
+            "recommendations": [],
+            "negatives": [],
+            "ats_suggestions": [],
+            "hiring_assessment": {
+                "verdict": "Manual Review / Phone Screen",
+                "verdict_color": "#f59e0b",
+                "leveling": "Junior Level (0-2 years)",
+                "summary": "Student candidate.",
+                "checklist": [],
+                "screening_actions": []
+            }
+        }"""
+        mock_model.generate_content.return_value = mock_response
+
+        # Execute
+        result = analyze_with_gemini("Resume text", "Job description")
+        
+        # Asserts - Education Match must be 0.0 because Bachelors is in progress
+        assert result is not None
+        assert result["category_scores"]["education_match"] == 0.0
+        # Overall score must have been re-calculated and be lower than 85.0
+        assert result["overall_score"] < 85.0
+        
+    finally:
+        settings.gemini_api_key = original_key

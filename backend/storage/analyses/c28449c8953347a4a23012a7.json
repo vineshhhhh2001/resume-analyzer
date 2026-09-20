@@ -1,0 +1,339 @@
+{
+  "created_at": "2026-06-17T05:35:45.048987+00:00",
+  "status": "completed",
+  "resume_filename": "Detailed_Software_Engineer_Resume.pdf",
+  "resume_file_type": "pdf",
+  "resume_text": "RAHUL SHARMA\nrahul.sharma@gmail.com | +91 9876543210\nLinkedIn: linkedin.com/in/rahulsharma\nGitHub: github.com/rahulsharma\nBengaluru, India\nPROFESSIONAL SUMMARY\nHighly motivated Computer Science undergraduate with strong foundations in software\ndevelopment, data structures, and web technologies. Experienced in developing full-stack\napplications, integrating APIs, and building AI-powered solutions.\nEDUCATION\nBachelor of Technology (B.Tech) – Computer Science and Engineering\nVIT Vellore (2022–2026)\nCGPA: 8.9/10\nTECHNICAL SKILLS\nProgramming: Python, Java, C++, JavaScript, TypeScript\nFrontend: React.js, HTML5, CSS3, Tailwind CSS\nBackend: Node.js, Express.js, REST APIs\nDatabases: MySQL, PostgreSQL, MongoDB\nTools: Git, GitHub, Docker, Postman, VS Code, AWS\nPROJECTS\nAI-Powered Resume Analyzer\nDeveloped an AI-based resume screening application using NLP for skill extraction, ATS scoring,\nand job matching.\nProject Tracker Dashboard\nIntegrated Jira and GitHub APIs to track project progress, tasks, pull requests, and sprint metrics.\nDriver Drowsiness Detection System\nBuilt a real-time monitoring system using OpenCV, MediaPipe, and Arduino to detect fatigue and\ntrigger alerts.\nINTERNSHIP EXPERIENCE\nSoftware Development Intern – ABC Technologies Pvt Ltd\nDeveloped REST APIs, optimized databases, and participated in Agile development processes.\nCERTIFICATIONS\nAWS Cloud Practitioner Essentials\nGoogle Data Analytics Professional Certificate\nDocker and Kubernetes Fundamentals\nACHIEVEMENTS\nFinalist in National Level Hackathon\nIEEE Computer Society Member\nSolved 300+ coding problems\nSOFT SKILLS\nProblem Solving, Communication, Teamwork, Leadership, Time Management\nLANGUAGES\nEnglish, Hindi, Tamil",
+  "job_description_text": "Software Engineer Intern – Job Description\r\nCompany: TechNova Solutions Pvt. Ltd.\r\n\r\nLocation: Bengaluru, India\r\nEmployment Type: Internship (Full-Time)\r\nDuration: 6 Months\r\nStipend: ₹25,000 – ₹35,000 per month\r\n\r\nAbout the Company\r\n\r\nTechNova Solutions is a rapidly growing technology company focused on developing innovative software solutions for enterprises across healthcare, finance, education, and e-commerce sectors. We leverage modern technologies including Artificial Intelligence, Cloud Computing, and Data Analytics to build scalable digital products.\r\n\r\nPosition Overview\r\n\r\nWe are seeking a passionate and motivated Software Engineer Intern to join our development team. The ideal candidate should possess strong programming fundamentals, problem-solving abilities, and an eagerness to learn modern software development practices.\r\n\r\nAs a Software Engineer Intern, you will collaborate with experienced developers to design, develop, test, and deploy software applications while gaining hands-on industry experience.\r\n\r\nKey Responsibilities\r\nDesign, develop, and maintain web-based applications.\r\nWrite clean, efficient, and reusable code following industry best practices.\r\nCollaborate with frontend and backend development teams.\r\nParticipate in Agile development processes including sprint planning and daily standups.\r\nDevelop and consume RESTful APIs.\r\nPerform debugging, testing, and troubleshooting of applications.\r\nAssist in database design and query optimization.\r\nParticipate in code reviews and implement feedback.\r\nCreate technical documentation for developed features.\r\nStay updated with emerging technologies and software development trends.\r\nRequired Skills\r\nProgramming Languages\r\nJava\r\nPython\r\nC++\r\nJavaScript\r\nTechnical Skills\r\nData Structures and Algorithms\r\nObject-Oriented Programming (OOP)\r\nDatabase Management Systems\r\nSQL Queries\r\nOperating Systems Fundamentals\r\nComputer Networks Basics\r\nWeb Technologies\r\nHTML5\r\nCSS3\r\nJavaScript\r\nResponsive Web Design\r\nTools\r\nGit\r\nGitHub\r\nVisual Studio Code\r\nPostman\r\nPreferred Skills\r\nReact.js\r\nNode.js\r\nExpress.js\r\nMongoDB\r\nPostgreSQL\r\nDocker\r\nAWS or Google Cloud Platform\r\nCI/CD Fundamentals\r\nAgile Development Methodologies\r\nEducational Qualifications\r\nPursuing or recently completed:\r\nB.Tech / BE in Computer Science\r\nInformation Technology\r\nSoftware Engineering\r\nElectronics & Communication\r\nRelated Engineering Discipline\r\nMinimum CGPA: 7.0/10 (Preferred)\r\nDesired Candidate Profile\r\nStrong analytical and problem-solving skills.\r\nGood communication and teamwork abilities.\r\nAbility to learn new technologies quickly.\r\nSelf-motivated and proactive attitude.\r\nPassion for software development and innovation.\r\nWhat You'll Learn\r\nIndustry-standard software development practices.\r\nAgile and Scrum methodologies.\r\nCloud deployment and DevOps basics.\r\nAPI development and integration.\r\nDatabase design and optimization.\r\nFull-stack application development.\r\nBenefits\r\nHands-on industry experience.\r\nMentorship from senior engineers.\r\nCertificate of Internship.\r\nOpportunity for Pre-Placement Offer (PPO).\r\nAccess to technical training programs and workshops.\r\nATS Keywords\r\n\r\nSoftware Development, Java, Python, C++, React.js, Node.js, SQL, MongoDB, PostgreSQL, Git, GitHub, REST API, Docker, AWS, Cloud Computing, Data Structures, Algorithms, OOP, Agile, Web Development.",
+  "resume_data": {
+    "name": "RAHUL SHARMA",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "+91 9876543210",
+    "linkedin": "linkedin.com/in/rahulsharma",
+    "skills": [
+      "AWS",
+      "Agile",
+      "C",
+      "Communication",
+      "Docker",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "Java",
+      "JavaScript",
+      "Jira",
+      "Kubernetes",
+      "Leadership",
+      "MongoDB",
+      "MySQL",
+      "NLP",
+      "OpenCV",
+      "PostgreSQL",
+      "Postman",
+      "Problem Solving",
+      "Python",
+      "REST",
+      "React",
+      "React.js",
+      "Tailwind CSS",
+      "Teamwork",
+      "Time Management",
+      "TypeScript"
+    ],
+    "skills_categorized": {
+      "cloud_platforms": [
+        "AWS"
+      ],
+      "methodologies": [
+        "Agile",
+        "REST"
+      ],
+      "programming_languages": [
+        "C",
+        "Java",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Leadership",
+        "Problem Solving",
+        "Teamwork",
+        "Time Management"
+      ],
+      "devops_tools": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "web_frameworks": [
+        "Express",
+        "Express.js",
+        "React",
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "version_control": [
+        "Git",
+        "GitHub"
+      ],
+      "project_management_tools": [
+        "Jira"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "data_science_ml": [
+        "NLP",
+        "OpenCV"
+      ],
+      "testing": [
+        "Postman"
+      ]
+    },
+    "education": [
+      {
+        "degree": "MA",
+        "level": "Masters",
+        "institution": "GitHub",
+        "year": null
+      },
+      {
+        "degree": "ms",
+        "level": "Masters",
+        "institution": "EVEMENTS",
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Technology",
+        "level": "Bachelors",
+        "institution": "EDUCATION",
+        "year": "2026"
+      },
+      {
+        "degree": "Bachelor",
+        "level": "Bachelors",
+        "institution": "EDUCATION",
+        "year": "2026"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+        "company": "EDUCATION",
+        "duration": "2022 - 2026",
+        "description": ")\nCGPA: 8.9/10\nTECHNICAL SKILLS\nProgramming: Python, Java, C++, JavaScript, TypeScript\nFrontend: React.js, HTML5, CSS3, Tailwind CSS\nBackend: Node.js, Express.js, REST APIs\nDatabases: MySQL, PostgreSQL, MongoDB\nTools: Git, GitHub, Docker, Postman, VS Code, AWS\nPROJECTS\nAI-Powered Resume Analyzer\nDev"
+      }
+    ],
+    "certifications": [
+      "CKA"
+    ],
+    "total_experience_years": 2
+  },
+  "job_data": {
+    "title": "Software Engineer Intern – Job Description",
+    "all_skills": [
+      "AWS",
+      "Agile",
+      "C",
+      "CI/CD",
+      "Communication",
+      "DevOps",
+      "Docker",
+      "Documentation",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "Google Cloud",
+      "Google Cloud Platform",
+      "Innovation",
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "PostgreSQL",
+      "Postman",
+      "Python",
+      "REST",
+      "RESTful API",
+      "React",
+      "React.js",
+      "SQL",
+      "Scrum",
+      "Teamwork"
+    ],
+    "required_skills": [
+      "AWS",
+      "C",
+      "CI/CD",
+      "Docker",
+      "Documentation",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "Google Cloud",
+      "Google Cloud Platform",
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "PostgreSQL",
+      "Postman",
+      "Python",
+      "REST",
+      "RESTful API",
+      "React",
+      "React.js",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "Agile",
+      "Communication",
+      "DevOps",
+      "Innovation",
+      "Scrum",
+      "Teamwork"
+    ],
+    "min_experience_years": null,
+    "education_requirements": [
+      "Bachelors",
+      "Diploma",
+      "Masters"
+    ]
+  },
+  "overall_score": 77.8,
+  "grade": {
+    "grade": "B",
+    "label": "Good Match",
+    "color": "#6366f1"
+  },
+  "category_scores": {
+    "skills_match": 68.2,
+    "experience_match": 80.0,
+    "education_match": 100.0,
+    "semantic_similarity": 77.8
+  },
+  "skills_detail": {
+    "matched_skills": [
+      "AWS",
+      "Agile",
+      "C",
+      "Communication",
+      "Docker",
+      "Express",
+      "Express.js",
+      "Git",
+      "GitHub",
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "PostgreSQL",
+      "Postman",
+      "Python",
+      "REST",
+      "React",
+      "React.js",
+      "Teamwork"
+    ],
+    "missing_required": [
+      "CI/CD",
+      "Documentation",
+      "Google Cloud",
+      "Google Cloud Platform",
+      "RESTful API",
+      "SQL"
+    ],
+    "missing_preferred": [
+      "DevOps",
+      "Innovation",
+      "Scrum"
+    ],
+    "extra_skills": [
+      "Jira",
+      "Kubernetes",
+      "Leadership",
+      "MySQL",
+      "NLP",
+      "OpenCV",
+      "Problem Solving",
+      "Tailwind CSS",
+      "Time Management",
+      "TypeScript"
+    ]
+  },
+  "strengths": [
+    "Strong skill match — candidate has 19 of 22 required skills.",
+    "Education level meets or exceeds the job requirement.",
+    "Additional valuable skills: Jira, Kubernetes, Leadership, MySQL, NLP.",
+    "Relevant certifications: CKA.",
+    "Resume terminology aligns well with the job description."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "Skill Deficit",
+      "text": "Candidate is missing 6 core required skills. Major gaps detected in: CI/CD, Documentation, Google Cloud, Google Cloud Platform."
+    },
+    {
+      "priority": "low",
+      "category": "Preferred Gaps",
+      "text": "Candidate lacks the following preferred/nice-to-have skill qualifiers: DevOps, Innovation, Scrum."
+    },
+    {
+      "priority": "low",
+      "category": "Resume Detail",
+      "text": "Work descriptions do not highlight quantifiable metrics or numeric outcomes. Recruiter should ask for concrete metrics during screening."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "Missing Core: CI/CD",
+      "text": "The position requires experience with 'CI/CD', which is not mentioned on your resume. Could you describe your level of exposure to this or a related technology?"
+    },
+    {
+      "category": "Missing Core: Documentation",
+      "text": "How have you solved problems using 'Documentation'? If you haven't used it directly, what similar tools/systems have you worked with?"
+    },
+    {
+      "category": "Preferred Skill: DevOps",
+      "text": "We prefer candidates to have exposure to 'DevOps'. Have you worked with this tool or concept, and how would you approach utilizing it in this role?"
+    },
+    {
+      "category": "Technical Impact",
+      "text": "In your role as 'Bachelor of Technology (B.Tech) – Computer Science and Engineering' at 'EDUCATION', what is an example of a project where you drove measurable business or technical results?"
+    }
+  ],
+  "hiring_assessment": {
+    "verdict": "Auto-Shortlist (Strong Match)",
+    "verdict_color": "#10b981",
+    "leveling": "Junior Level (0-2 years)",
+    "summary": "Candidate is a Junior Level professional showing a 78% structural match to the job requirements. They meet the primary required skills and minimum years of experience. Recommended action for the hiring team: Advance to Technical Screen.",
+    "checklist": [
+      {
+        "criteria": "Skills Criteria Check",
+        "status": "PASS",
+        "details": "Matched 19 of 22 required core skills.",
+        "is_met": true
+      },
+      {
+        "criteria": "Experience Criteria Check",
+        "status": "PASS",
+        "details": "Candidate has 2.0 years (no minimum specified).",
+        "is_met": true
+      },
+      {
+        "criteria": "Education Criteria Check",
+        "status": "PASS",
+        "details": "Credentials align with requirements (Bachelors, Diploma, Masters).",
+        "is_met": true
+      }
+    ],
+    "screening_actions": [
+      "Technical Screen Focus: Assess depth in missing core skills (CI/CD, Documentation, Google Cloud)."
+    ]
+  },
+  "_id": "c28449c8953347a4a23012a7"
+}

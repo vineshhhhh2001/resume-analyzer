@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-06-17T05:15:39.668813+00:00",
+  "status": "completed",
+  "resume_filename": "mock_resume.pdf",
+  "resume_file_type": "pdf",
+  "resume_text": "John Doe\njohn.doe@email.com",
+  "job_description_text": "Looking for a Software Engineer with Python and React experienceLooking for a Software Engineer with Python and React experience",
+  "resume_data": {
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "phone": null,
+    "linkedin": null,
+    "skills": [],
+    "skills_categorized": {},
+    "education": [],
+    "experience": [],
+    "certifications": [],
+    "total_experience_years": 0.0
+  },
+  "job_data": {
+    "title": null,
+    "all_skills": [
+      "Python",
+      "React"
+    ],
+    "required_skills": [
+      "Python",
+      "React"
+    ],
+    "preferred_skills": [],
+    "min_experience_years": null,
+    "education_requirements": []
+  },
+  "overall_score": 43.4,
+  "grade": {
+    "grade": "D",
+    "label": "Weak Match",
+    "color": "#f97316"
+  },
+  "category_scores": {
+    "skills_match": 20.0,
+    "experience_match": 80.0,
+    "education_match": 80.0,
+    "semantic_similarity": 17.0
+  },
+  "skills_detail": {
+    "matched_skills": [],
+    "missing_required": [
+      "Python",
+      "React"
+    ],
+    "missing_preferred": [],
+    "extra_skills": []
+  },
+  "strengths": [
+    "Candidate demonstrates a diverse skill profile."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "Skill Deficit",
+      "text": "Candidate lacks the following critical required skills: Python, React. Verification of equivalent technical knowledge is highly recommended."
+    },
+    {
+      "priority": "medium",
+      "category": "Relevance Alert",
+      "text": "Low semantic keyword alignment with the job description. The candidate's background might be focused on a different domain or tech stack."
+    },
+    {
+      "priority": "low",
+      "category": "Resume Detail",
+      "text": "Work descriptions do not highlight quantifiable metrics or numeric outcomes. Recruiter should ask for concrete metrics during screening."
+    }
+  ],
+  "ats_suggestions": [
+    {
+      "category": "Missing Core: Python",
+      "text": "The position requires experience with 'Python', which is not mentioned on your resume. Could you describe your level of exposure to this or a related technology?"
+    },
+    {
+      "category": "Missing Core: React",
+      "text": "How have you solved problems using 'React'? If you haven't used it directly, what similar tools/systems have you worked with?"
+    },
+    {
+      "category": "Technical Overview",
+      "text": "Could you walk us through the system architecture of a major project you contributed to, explaining the decisions and trade-offs you made?"
+    }
+  ],
+  "_id": "2b0e6ed8525c408989cd3279"
+}

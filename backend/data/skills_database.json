@@ -1,0 +1,121 @@
+{
+  "programming_languages": [
+    "Python", "Java", "JavaScript", "TypeScript", "C", "C++", "C#", "Go", "Rust",
+    "Ruby", "PHP", "Swift", "Kotlin", "Scala", "R", "MATLAB", "Perl", "Lua",
+    "Dart", "Elixir", "Haskell", "Clojure", "Julia", "Assembly", "Objective-C",
+    "Shell", "Bash", "PowerShell", "SQL", "PL/SQL", "T-SQL", "Groovy", "VB.NET",
+    "F#", "Erlang", "Fortran", "COBOL", "Solidity", "VHDL", "Verilog"
+  ],
+  "web_frameworks": [
+    "React", "React.js", "Angular", "Vue", "Vue.js", "Svelte", "Next.js", "Nuxt.js",
+    "Express", "Express.js", "Django", "Flask", "FastAPI", "Spring Boot", "Spring",
+    "ASP.NET", ".NET Core", "Ruby on Rails", "Rails", "Laravel", "Symfony",
+    "NestJS", "Koa", "Hapi", "Gin", "Echo", "Fiber", "Phoenix", "Remix",
+    "Gatsby", "Astro", "SvelteKit", "Ember.js", "Backbone.js", "jQuery",
+    "Bootstrap", "Tailwind CSS", "Material UI", "Chakra UI", "Ant Design"
+  ],
+  "databases": [
+    "MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite", "Oracle", "SQL Server",
+    "DynamoDB", "Cassandra", "CouchDB", "Neo4j", "Elasticsearch", "MariaDB",
+    "Firebase", "Firestore", "Supabase", "CockroachDB", "InfluxDB", "TimescaleDB",
+    "Memcached", "RabbitMQ", "Apache Kafka", "HBase", "Couchbase"
+  ],
+  "cloud_platforms": [
+    "AWS", "Amazon Web Services", "Azure", "Microsoft Azure", "GCP",
+    "Google Cloud Platform", "Google Cloud", "Heroku", "DigitalOcean",
+    "Vercel", "Netlify", "Cloudflare", "IBM Cloud", "Oracle Cloud",
+    "Alibaba Cloud", "Linode", "Vultr"
+  ],
+  "cloud_services": [
+    "EC2", "S3", "Lambda", "ECS", "EKS", "RDS", "DynamoDB", "SQS", "SNS",
+    "CloudFormation", "CloudWatch", "API Gateway", "Route 53", "CloudFront",
+    "Azure Functions", "Azure DevOps", "Azure AD", "Blob Storage",
+    "Cloud Functions", "BigQuery", "Cloud Run", "App Engine", "Pub/Sub",
+    "Cloud Storage", "Compute Engine"
+  ],
+  "devops_tools": [
+    "Docker", "Kubernetes", "Jenkins", "GitLab CI", "GitHub Actions",
+    "CircleCI", "Travis CI", "Terraform", "Ansible", "Puppet", "Chef",
+    "Vagrant", "Packer", "Helm", "ArgoCD", "Istio", "Prometheus",
+    "Grafana", "Datadog", "New Relic", "Splunk", "ELK Stack", "Nagios",
+    "Nginx", "Apache", "HAProxy", "Consul", "Vault"
+  ],
+  "data_science_ml": [
+    "Machine Learning", "Deep Learning", "Natural Language Processing", "NLP",
+    "Computer Vision", "TensorFlow", "PyTorch", "Keras", "Scikit-learn",
+    "Pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn", "Plotly",
+    "Jupyter", "Jupyter Notebook", "XGBoost", "LightGBM", "CatBoost",
+    "NLTK", "spaCy", "Hugging Face", "Transformers", "BERT", "GPT",
+    "OpenCV", "YOLO", "Stable Diffusion", "LangChain", "RAG",
+    "Feature Engineering", "Model Deployment", "MLOps", "MLflow",
+    "Data Mining", "Statistical Analysis", "A/B Testing", "Hypothesis Testing",
+    "Regression", "Classification", "Clustering", "Neural Networks",
+    "Convolutional Neural Networks", "CNN", "Recurrent Neural Networks", "RNN",
+    "Generative AI", "Large Language Models", "LLM", "Fine-tuning",
+    "Reinforcement Learning", "Time Series Analysis", "Recommendation Systems",
+    "Apache Spark", "Hadoop", "Hive", "Pig", "Airflow", "dbt",
+    "Power BI", "Tableau", "Looker", "Data Visualization",
+    "ETL", "Data Pipeline", "Data Warehouse", "Data Lake"
+  ],
+  "mobile_development": [
+    "React Native", "Flutter", "SwiftUI", "UIKit", "Jetpack Compose",
+    "Android SDK", "iOS SDK", "Xamarin", "Ionic", "Cordova",
+    "Expo", "Android", "iOS", "Mobile Development"
+  ],
+  "testing": [
+    "Unit Testing", "Integration Testing", "End-to-End Testing", "E2E Testing",
+    "Jest", "Mocha", "Chai", "Jasmine", "Cypress", "Selenium", "Playwright",
+    "Puppeteer", "pytest", "unittest", "JUnit", "TestNG", "RSpec",
+    "Test-Driven Development", "TDD", "Behavior-Driven Development", "BDD",
+    "Load Testing", "Performance Testing", "Security Testing",
+    "Postman", "SoapUI", "Artillery", "k6", "Locust"
+  ],
+  "version_control": [
+    "Git", "GitHub", "GitLab", "Bitbucket", "SVN", "Subversion",
+    "Mercurial", "Azure Repos"
+  ],
+  "methodologies": [
+    "Agile", "Scrum", "Kanban", "Waterfall", "SAFe", "Lean",
+    "CI/CD", "Continuous Integration", "Continuous Deployment", "Continuous Delivery",
+    "DevOps", "DevSecOps", "SRE", "Site Reliability Engineering",
+    "Microservices", "Monolithic", "Serverless", "Event-Driven Architecture",
+    "Domain-Driven Design", "DDD", "Clean Architecture", "SOLID",
+    "Design Patterns", "RESTful API", "REST", "GraphQL", "gRPC",
+    "WebSocket", "API Design", "System Design"
+  ],
+  "security": [
+    "OAuth", "OAuth 2.0", "JWT", "SAML", "OpenID Connect",
+    "SSL/TLS", "HTTPS", "Encryption", "Hashing", "Penetration Testing",
+    "OWASP", "Security Auditing", "IAM", "RBAC", "Zero Trust",
+    "Cybersecurity", "Information Security", "Network Security",
+    "Vulnerability Assessment", "SOC 2", "GDPR", "HIPAA", "PCI DSS"
+  ],
+  "soft_skills": [
+    "Leadership", "Communication", "Teamwork", "Problem Solving",
+    "Critical Thinking", "Time Management", "Project Management",
+    "Collaboration", "Mentoring", "Presentation Skills", "Public Speaking",
+    "Strategic Planning", "Decision Making", "Conflict Resolution",
+    "Adaptability", "Creativity", "Innovation", "Analytical Skills",
+    "Attention to Detail", "Customer Service", "Stakeholder Management",
+    "Cross-functional Collaboration", "Remote Work", "Documentation"
+  ],
+  "project_management_tools": [
+    "Jira", "Confluence", "Trello", "Asana", "Monday.com", "Notion",
+    "Linear", "Shortcut", "ClickUp", "Basecamp", "Microsoft Project",
+    "Slack", "Microsoft Teams", "Zoom"
+  ],
+  "design_tools": [
+    "Figma", "Sketch", "Adobe XD", "InVision", "Photoshop", "Illustrator",
+    "After Effects", "Premiere Pro", "Canva", "Zeplin", "Abstract"
+  ],
+  "certifications_keywords": [
+    "AWS Certified", "Azure Certified", "Google Cloud Certified",
+    "Certified Kubernetes Administrator", "CKA", "CKAD",
+    "Certified Scrum Master", "CSM", "PMP", "PRINCE2",
+    "CompTIA", "CISSP", "CEH", "CCNA", "CCNP",
+    "Terraform Associate", "HashiCorp Certified",
+    "Oracle Certified", "Microsoft Certified",
+    "Salesforce Certified", "SAP Certified",
+    "Six Sigma", "ITIL", "TOGAF"
+  ]
+}

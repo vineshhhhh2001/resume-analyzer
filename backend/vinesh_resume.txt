@@ -1,0 +1,36 @@
+VINESH KRISHNA P K
+Coimbatore, India | +91 79049 33349 | vineshprabhakaran@gmail.com
+
+OBJECTIVE
+Second-year M.Tech Integrated (Software Engineering) student at VIT Vellore seeking a 2‑month summer
+internship (May–July 2026). Interested in Software Development, Software Architecture, Requirement
+Analysis, and AI/ML domains.
+
+EDUCATION
+M.Tech Integrated (Software Engineering) – 5 Year Program
+VIT University, Vellore
+Current Year: 2nd Year
+
+TECHNICAL SKILLS
+Programming: C++, Java, Python
+Database: SQL, MongoDB
+Tools: Figma, MediaPipe, AI Modules
+
+RELEVANT COURSEWORK
+Data Structures, Database Management Systems, Computer Networks, Operating Systems, Software
+Engineering, Requirement Engineering, Software Architecture, Object Oriented Analysis and Design,
+Software project management
+
+PROJECTS
+AI-Based Inventory & Billing Management System
+Developed an AI-assisted inventory and billing system to automate stock tracking and billing workflows.
+Driver Drowsiness Detection System
+Built a computer vision solution using Python and MediaPipe to detect driver fatigue.
+
+LEADERSHIP & ACTIVITIES
+IEEE Computer Society Member – Organized technical events, participated in hackathons and
+collaborated with senior students on technical projects.
+
+AREAS OF INTEREST
+Software Architecture, Requirement Engineering, Artificial Intelligence, Machine Learning, Software
+Development

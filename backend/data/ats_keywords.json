@@ -1,0 +1,51 @@
+{
+  "standard_section_headers": [
+    "Summary", "Professional Summary", "Objective", "Career Objective",
+    "Work Experience", "Professional Experience", "Experience",
+    "Employment History", "Education", "Academic Background",
+    "Skills", "Technical Skills", "Core Competencies",
+    "Certifications", "Licenses & Certifications",
+    "Projects", "Key Projects", "Personal Projects",
+    "Publications", "Awards", "Honors & Awards",
+    "Volunteer Experience", "Languages", "References"
+  ],
+  "action_verbs": [
+    "Achieved", "Administered", "Analyzed", "Architected", "Automated",
+    "Built", "Championed", "Collaborated", "Configured", "Consolidated",
+    "Created", "Debugged", "Decreased", "Delivered", "Deployed",
+    "Designed", "Developed", "Directed", "Drove", "Eliminated",
+    "Enabled", "Engineered", "Enhanced", "Established", "Evaluated",
+    "Executed", "Expanded", "Facilitated", "Generated", "Grew",
+    "Identified", "Implemented", "Improved", "Increased", "Influenced",
+    "Initiated", "Innovated", "Integrated", "Introduced", "Launched",
+    "Led", "Maintained", "Managed", "Mentored", "Migrated",
+    "Modernized", "Monitored", "Negotiated", "Optimized", "Orchestrated",
+    "Oversaw", "Partnered", "Piloted", "Pioneered", "Planned",
+    "Presented", "Prioritized", "Produced", "Programmed", "Proposed",
+    "Provided", "Rebuilt", "Recommended", "Redesigned", "Reduced",
+    "Refactored", "Refined", "Resolved", "Restructured", "Revamped",
+    "Reviewed", "Scaled", "Simplified", "Solved", "Spearheaded",
+    "Standardized", "Streamlined", "Strengthened", "Supervised",
+    "Supported", "Tested", "Trained", "Transformed", "Troubleshot",
+    "Unified", "Upgraded", "Utilized", "Validated"
+  ],
+  "formatting_tips": [
+    "Use a clean, single-column layout for ATS compatibility",
+    "Avoid using tables, text boxes, or columns — ATS may not parse them correctly",
+    "Use standard fonts like Arial, Calibri, or Times New Roman",
+    "Save your resume as a .docx or .pdf file",
+    "Keep file size under 2MB",
+    "Do not use headers or footers for critical information",
+    "Avoid images, icons, or graphics in the resume",
+    "Use bullet points instead of paragraphs for experience descriptions",
+    "Include quantifiable achievements with numbers and percentages",
+    "Keep resume to 1-2 pages maximum",
+    "Use consistent date formatting throughout",
+    "Spell out acronyms at least once"
+  ],
+  "common_ats_systems": [
+    "Workday", "Taleo", "iCIMS", "Greenhouse", "Lever",
+    "BambooHR", "ADP", "SAP SuccessFactors", "SmartRecruiters",
+    "Jobvite", "Bullhorn", "Breezy HR"
+  ]
+}
