@@ -10,28 +10,31 @@ pipeline {
             }
         }
 
+        
         stage('Verify Python') {
             steps {
-                bat 'python --version'
-                bat 'python -m pip --version'
+                bat '"C:\\Users\\abhij\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" --version'
+                bat '"C:\\Users\\abhij\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m pip --version'
             }
         }
 
+
+        
         stage('Backend Tests') {
             steps {
                 dir('backend') {
-                    bat 'python -m pip install -r requirements.txt'
-                    bat 'python -m pytest tests -v --tb=short --junitxml=test-results/results.xml'
+                    bat '"C:\\Users\\abhij\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m pip install -r requirements.txt'
+                    bat '"C:\\Users\\abhij\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m pytest tests -v --tb=short --junitxml=test-results/results.xml'
                 }
             }
             post {
                 always {
                     junit testResults: 'backend/test-results/results.xml',
-                          allowEmptyResults: true
+                        allowEmptyResults: true
                 }
             }
         }
-    }
+
 
     post {
         always {
